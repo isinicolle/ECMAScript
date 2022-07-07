@@ -26,4 +26,4 @@ console.log(epicPhrase);
 let epicPhrase2 = `${hello} ${world}`;
 console.log(epicPhrase2);
 
-//LET y CONST, Multilínea, Spread Operator y Desestructuración
+
