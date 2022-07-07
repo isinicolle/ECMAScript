@@ -17,4 +17,13 @@ function nuevaFuncion(name='oscar',age=23,country='MX') {
 nuevaFuncion();
 nuevaFuncion('juan',30,'USA');
 
+let hello = 'hello';
+let world = 'world';
+let epicPhrase = hello + ' ' + world;
+console.log(epicPhrase);
 
+//es6
+let epicPhrase2 = `${hello} ${world}`;
+console.log(epicPhrase2);
+
+//LET y CONST, Multilínea, Spread Operator y Desestructuración
