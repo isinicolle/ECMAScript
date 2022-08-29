@@ -19,3 +19,9 @@ const user = {
 
     console.log(bignumber)
     console.log(otrobignumber)
+
+
+//NULLISH   
+const nullish = null;
+const validar = nullish ?? 'default';
+console.log(validar)
