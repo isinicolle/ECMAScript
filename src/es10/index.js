@@ -43,3 +43,9 @@ console.log(arregloo2.flatMap(v => [v,v*2] ))
 var hola = "  Hola  MUndo  ";
 console.log(hola.trimStart())
 console.log(hola.trimEnd())
+
+//fromentries
+
+const entriess = new Map([["name","Isis"], ["age",21]]);
+console.log(entriess)
+console.log(Object.fromEntries(entriess))
