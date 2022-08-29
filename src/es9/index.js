@@ -54,3 +54,23 @@ const otraFunction = () => {
       : reject(new Error('Test Error'))
   }).finally(() => console.log('Finalizo'))
 }
+
+async function* anotherGenerator() {
+  yield Promise.resolve(1);
+  yield Promise.resolve(2);
+
+}
+
+const otra = anotherGenerator()
+otra.next().then(response => console.log(response.value))
+otra.next().then(response => console.log(response.value))
+otra.next().then(response => console.log(response.value))
+
+async function arrayofnames(array) {
+  for await (let value of array) {
+    console.log(value)
+  }
+}
+
+const names = arrayofnames(['Isis','Nicolle'])
+console.log('After')
