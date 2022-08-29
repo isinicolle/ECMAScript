@@ -11,3 +11,11 @@ const user = {
  console.log(user.address.city)
 
  console.log(user?.address?.city) //optional chaining
+
+ // BigInt y Nullish
+
+ const bignumber = 81979083289203n;
+ const otrobignumber = BigInt(81979083289203);
+
+    console.log(bignumber)
+    console.log(otrobignumber)
