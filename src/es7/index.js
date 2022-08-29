@@ -40,3 +40,8 @@ const funcionAsincrona = () => {
   }
   );
 }
+
+const anotherFunction = async () => {
+  const something = await funcionAsincrona();
+  console.log(something);
+}
