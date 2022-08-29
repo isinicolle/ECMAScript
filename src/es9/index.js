@@ -1,4 +1,4 @@
-const obj = {
+const obje = {
   name: 'oscar',
   age: 32,
   country: 'MX'
@@ -34,6 +34,7 @@ helloWorld()
   .finally(() => console.log('Finalizo'))
 
 
+  //expresiones regulares
   const regexData = /([0-9]{4})-([0-9]{2})-([0-9]{2})/
   const match = regexData.exec('2018-04-20');
   const year = match[1]
@@ -41,3 +42,6 @@ helloWorld()
   const day = match[3]
 
   console.log(year, month, day);
+
+
+console.table(match);
