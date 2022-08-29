@@ -8,7 +8,7 @@ const entries = Object.entries(data);
 console.log(entries);
 console.log(entries.length);
 
-const data = {
+const dataa = {
   frontend: 'Oscar',
   backend: 'ISabel',
   design: 'Ana',
@@ -53,3 +53,9 @@ const anotherFunction = async () => {
 };
 
 anotherFunction();
+
+//propagacion 
+const user = {username: 'Isis' , age: 21, country: 'HN'};
+const {username, ...rest} = user;
+console.log(username);
+console.log(rest);
