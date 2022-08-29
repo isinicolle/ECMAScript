@@ -11,3 +11,10 @@ let exponent = 4;
 let result = base ** exponent;
 
 console.log(result);
+
+//object entries 
+const countries = { MX: 'Mexico', US: 'United States', FR: 'France' };
+console.log(Object.entries(countries));
+
+//object values
+console.log(Object.values(countries));
