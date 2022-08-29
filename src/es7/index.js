@@ -28,3 +28,15 @@ function greet(name, greeting = 'Hi') {
   return `${greeting} ${name}`;
 }
 
+const array = [1, 2, 3, 4, 5, , , , 45];
+console.log(array);
+console.log(array.length);
+
+
+//funciones asincronas
+const funcionAsincrona = () => {
+  return new Promise((resolve, reject) => {
+  (true) ? setTimeout(() => resolve('Hola'), 3000) : reject(new Error('Error'));
+  }
+  );
+}
