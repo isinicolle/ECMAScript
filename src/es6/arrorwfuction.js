@@ -98,3 +98,8 @@ return new Promise((resolve, reject) => {
 });
 
 }
+
+hola()
+.then(response => console.log(response))
+.catch(error => console.log(error))
+.finally(() => console.log('Finalizo'))
