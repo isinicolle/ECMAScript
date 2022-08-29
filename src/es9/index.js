@@ -45,3 +45,12 @@ helloWorld()
 
 
 console.table(match);
+
+//promise finally
+const otraFunction = () => {
+  return new Promise((resolve, reject) => {
+    (true)
+      ? setTimeout(() => resolve('Hello World'), 3000)
+      : reject(new Error('Test Error'))
+  }).finally(() => console.log('Finalizo'))
+}
