@@ -37,3 +37,15 @@ const promiseallSettled = Promise.allSettled([
     promise3
 ])
 .then(response => console.log(response));
+
+// globalThis y matchAll
+console.log(globalThis)
+
+//matchall
+const regex = /\b(Apple)+\b/g;
+
+const fruits = "Apple, Apple, Apple, Apple, Orange, Apple";
+
+for (const match of fruits.matchAll(regex)) {
+    console.log(match);
+}
