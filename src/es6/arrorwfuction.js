@@ -87,3 +87,14 @@ helloPromise2().then(response => console.log(response))
     .catch(error => console.log(error))
     .finally(() => console.log('Finalizo'))
     
+
+//arrow functions 
+const hola = () => {
+return new Promise((resolve, reject) => {
+    if(true)
+    resolve('Hello World');
+    else
+    reject('Test Error');
+});
+
+}
